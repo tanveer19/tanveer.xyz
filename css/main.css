@@ -269,6 +269,8 @@ main#home h1 {
   margin: auto;
   border-radius: 50%;
   border: #eece1a 3px solid;
+  width: 250px;
+  height: 250px;
 }
 
 .about-info .bio {
