@@ -1,0 +1,23 @@
+{
+  "name": "0.0.tanveer.xyz",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanveer19/tanveer.xyz.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanveer19/tanveer.xyz/issues"
+  },
+  "homepage": "https://tanveer.xyz",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
