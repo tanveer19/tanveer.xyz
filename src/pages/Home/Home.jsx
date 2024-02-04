@@ -28,7 +28,7 @@ const Home = () => {
           </h2>
         </div>
 
-        <div className="flex justify-center gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-5">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
