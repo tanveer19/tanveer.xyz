@@ -13,17 +13,17 @@ const Home = () => {
   return (
     <div>
       <main id="home">
-        <div>
-          <h1 className="lg-heading">
+        <div className="text-center">
+          <h1 className="text-5xl">
             Tanveer Hossain Jony
             {/* <span className="text-secondary">Hossain</span> */}
           </h1>
 
-          <h2>Front End Developer</h2>
+          <h2 className="text-3xl my-4">Front End Developer</h2>
 
-          <h2>
+          <h2 className="text-3xl mb-4">
             <Link to="/work" className="nav-link">
-              🔥 My Projects
+              My Projects
             </Link>
           </h2>
         </div>
@@ -154,21 +154,6 @@ const Home = () => {
               </Button>
             </CardActions>
           </Card>
-        </div>
-
-        <div className="icons">
-          <a href="https://github.com/tanveer19" target="_blank">
-            <i className="fab fa-github fa-2x"></i>
-          </a>
-          <a href="https://twitter.com/thjbd19" target="_blank">
-            <i className="fab fa-twitter fa-2x"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/tanveer-hossain-jony/"
-            target="_blank"
-          >
-            <i className="fab fa-linkedin fa-2x"></i>
-          </a>
         </div>
       </main>
       {/* <div className="element"></div> */}

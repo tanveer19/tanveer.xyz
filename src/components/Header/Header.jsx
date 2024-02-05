@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <div>
       <header>
-        <div className="menu-btn">
+        {/* <div className="menu-btn">
           <div className="btn-line"></div>
           <div className="btn-line"></div>
           <div className="btn-line"></div>
-        </div>
+        </div> */}
 
         <nav className="menu">
           <div className="menu-branding">

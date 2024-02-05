@@ -251,7 +251,7 @@ main#home {
 }
 
 main#home h1 {
-  margin-top: 20vh;
+  /* margin-top: 20vh; */
 }
 
 .about-info {
@@ -388,13 +388,13 @@ main#home h1 {
   color: #333;
 }
 
-#main-footer {
+/* #main-footer {
   text-align: center;
   padding: 1rem;
   background: #2b2b2b;
   color: #fff;
   height: 60px;
-}
+} */
 
 @media screen and (min-width: 1171px) {
   .projects {
