@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center my-4">
       <div className="icons flex gap-4">
         <a href="https://github.com/tanveer19" target="_blank">
           <i className="fab fa-github fa-2x"></i>

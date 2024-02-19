@@ -1,5 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Marquee from "react-fast-marquee";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3Alt,
+  faSquareJs,
+  faBootstrap,
+  faReact,
+  faSquareGithub,
+} from "@fortawesome/free-brands-svg-icons";
+
 import "./Home.css";
 
 import Card from "@mui/material/Card";
@@ -8,6 +19,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { faNode } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
   return (
@@ -21,14 +33,14 @@ const Home = () => {
 
           <h2 className="text-3xl my-4">Front End Developer</h2>
 
-          <h2 className="text-3xl mb-4">
-            <Link to="/work" className="nav-link">
-              My Projects
-            </Link>
+          <h2 className="text-3xl mb-8">
+            {/* <Link to="/work" className="nav-link"> */}
+            My Projects
+            {/* </Link> */}
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-5 ">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
@@ -156,7 +168,20 @@ const Home = () => {
           </Card>
         </div>
       </main>
-      {/* <div className="element"></div> */}
+      <div>
+        <h2 className="text-3xl text-center mb-8">Skills:</h2>
+        <Marquee>
+          <div className="flex space-x-8 my-4">
+            <FontAwesomeIcon icon={faHtml5} size="4x" />
+            <FontAwesomeIcon icon={faCss3Alt} size="4x" />
+            <FontAwesomeIcon icon={faBootstrap} size="4x" />
+            <FontAwesomeIcon icon={faSquareJs} size="4x" />
+            <FontAwesomeIcon icon={faReact} size="4x" />
+            <FontAwesomeIcon icon={faNode} size="4x" />
+            <FontAwesomeIcon icon={faSquareGithub} size="4x" />
+          </div>
+        </Marquee>
+      </div>
     </div>
   );
 };
