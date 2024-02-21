@@ -26,11 +26,8 @@ const Home = () => {
     <div>
       <main id="home">
         <div className="text-center">
-          <h1 className="text-5xl">
-            Tanveer Hossain Jony
-            {/* <span className="text-secondary">Hossain</span> */}
-          </h1>
-
+          <h1 className="text-5xl">Tanveer Hossain Jony</h1>
+          <span></span>
           <h2 className="text-3xl my-4">Front End Developer</h2>
 
           <h2 className="text-3xl mb-8">
@@ -181,6 +178,13 @@ const Home = () => {
             <FontAwesomeIcon icon={faSquareGithub} size="4x" />
           </div>
         </Marquee>
+      </div>
+      <div>
+        <h2 className="text-3xl text-center mb-8">Biography:</h2>
+        <p className="text-xl text-center mb-8">
+          I'm a Front-end Developer from Dhaka. I code and create web elements
+          for amazing people around the world.
+        </p>
       </div>
     </div>
   );
