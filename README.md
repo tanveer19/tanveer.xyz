@@ -1,3 +1,3 @@
-Tanveer Hossain Jony
+Initial project setup with vite and tailwindcss
 
-Portfolio website
+Date: 02.02.24
