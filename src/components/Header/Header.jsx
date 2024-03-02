@@ -33,21 +33,21 @@ const Header = () => {
         <div className="scroll-bar">
           <div className="hl-top">
             <div className="hl-logo">
-              <Link to="/">N</Link>
+              <Link to="/">T</Link>
             </div>
           </div>
           {/* End htl-top */}
 
           <Scrollspy
             // className="nav nav-menu"
-            className="flex flex-wrap pl-0 mb-0 list-none nav-menu"
+            className="flex flex-wrap nav-menu w-1/2 mx-auto"
             items={["home", "about", "resume", "work", "blog", "contactus"]}
             currentClassName="active"
             offset={-30}
           >
             <li>
               <a
-                className="nav-link "
+                className="nav-link block"
                 href="#home"
                 data-tip
                 data-for="HOME"
@@ -66,7 +66,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                className="nav-link"
+                className="nav-link block"
                 href="#about"
                 data-tip
                 data-for="ABOUT"
@@ -85,7 +85,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                className="nav-link"
+                className="nav-link block"
                 href="#resume"
                 data-tip
                 data-for="RESUME"
@@ -104,7 +104,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                className="nav-link"
+                className="nav-link block"
                 href="#work"
                 data-tip
                 data-for="WORK"
@@ -123,7 +123,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                className="nav-link"
+                className="nav-link block"
                 href="#blog"
                 data-tip
                 data-for="BLOG"
@@ -142,7 +142,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                className="nav-link"
+                className="nav-link block"
                 href="#contactus"
                 data-tip
                 data-for="CONTACT"
