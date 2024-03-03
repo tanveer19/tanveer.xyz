@@ -10,7 +10,7 @@ const sliderContent = {
   description: `I design and develop services for customers of all sizes,
   specializing in creating stylish, modern websites, web
   services and online stores.`,
-  btnText: " Donwload Resume",
+  btnText: " Resume",
 };
 
 const Slider = () => {
@@ -39,8 +39,8 @@ const Slider = () => {
         {/* End hp-top-fixed */}
 
         <div className="max-w-[1140px] w-full pl-5 md:pl-52">
-          <div className="row full-screen align-items-center">
-            <div className="w-full md:w-3/4">
+          <div className="full-screen">
+            <div className="w-full md:w-3/4 mt-16">
               <div className="type-box">
                 <h6>Hello, My name is</h6>
                 <h1 className="font-alt">{sliderContent.name}</h1>
@@ -49,8 +49,8 @@ const Slider = () => {
                 <div className="mt-4">
                   <a
                     className="px-btn px-btn-white"
-                    href="img/resume.png"
-                    download
+                    href="https://drive.google.com/file/d/18j0ZeQD7jsAoKZCoy4n_acflZcFoHyFA/view?usp=drive_link"
+                    target="_blank"
                   >
                     {sliderContent.btnText}
                   </a>
