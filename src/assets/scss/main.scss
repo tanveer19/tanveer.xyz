@@ -40,3 +40,8 @@ Primary use:  ib-themes
 @import "main/modal";
 @import "main/rtl";
 @import "main/custom-theme-dark";
+
+//fix social icons and nav
+svg {
+  display: inline !important;
+}

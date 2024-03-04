@@ -17,7 +17,7 @@ const SocialShare = [
 
 const Social = () => {
   return (
-    <div className="nav social-icons justify-content-center">
+    <div className="social-icons flex flex-wrap pl-0 mb-0 list-none justify-center">
       {SocialShare.map((val, i) => (
         <a key={i} href={`${val.link}`} rel="noreferrer" target="_blank">
           {val.Social}
