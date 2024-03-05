@@ -29,7 +29,7 @@ const Header = () => {
       {/* End Header */}
 
       {/* nav bar */}
-      <header className={click ? "header-left menu-open" : "header-left "}>
+      <header className={click ? "header-left menu-open" : "header-left  z-10"}>
         <div className="scroll-bar">
           <div className="hl-top">
             <div className="hl-logo">

@@ -6,7 +6,10 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ErrorPage from "./error-page.jsx";
 import Layout from "./components/Layout/Layout.jsx";
 import Home from "./pages/Home/Home.jsx";
-import App from "./App.jsx";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,10 +26,18 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router}>
-      <App></App>
-    </RouterProvider>
-  </React.StrictMode>
-);
+const App = () => {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+
+  return (
+    <React.StrictMode>
+      <RouterProvider router={router}>
+        <ScrollToTop></ScrollToTop>
+      </RouterProvider>
+    </React.StrictMode>
+  );
+};
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);

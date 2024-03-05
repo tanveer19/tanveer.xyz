@@ -26,7 +26,7 @@ const ServiceContent = [
 export default function Service() {
   return (
     <>
-      <div className="row">
+      <div className="row flex gap-6">
         {ServiceContent.map((val, i) => (
           <div
             className="col-md-6 col-lg-4 my-3"

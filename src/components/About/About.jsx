@@ -1,17 +1,15 @@
 import React from "react";
 import Social from "../Social";
-import Service from "../service/Service";
+import Skill from "../Skill/Skill";
+import Service from "../service/ServiceAnimation";
 
 const About = () => {
   return (
     <div>
       <section id="about" className="section theme-light dark-bg">
-        <div className="max-w-[1140px] w-full mx-auto">
+        <div className="max-w-[1050px] w-full mx-auto">
           <div className="flex justify-center items-center">
-            <div
-              className="w-1/2"
-              //  data-aos="fade-up" data-aos-duration="1200"
-            >
+            <div className="w-1/2" data-aos="fade-up" data-aos-duration="1200">
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
@@ -33,9 +31,9 @@ const About = () => {
 
             <div
               className="w-1/2"
-              // data-aos="fade-up"
-              // data-aos-duration="1200"
-              // data-aos-delay="200"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-delay="200"
             >
               <div className="about-info">
                 <div className="title">
@@ -106,11 +104,28 @@ const About = () => {
             }}
           ></div>
           {/* End separated */}
+
           <div className="title">
             <h3>What I do?</h3>
           </div>
-          <Service />
+
+          <Service></Service>
+
           {/* End .row */}
+
+          {/* separated */}
+          <div
+            className="separated"
+            style={{
+              backgroundImage: `url("img/border-dark.png")`,
+            }}
+          ></div>
+          {/* End separated */}
+
+          <div className="title">
+            <h3>Skills</h3>
+          </div>
+          <Skill></Skill>
 
           {/* separated */}
           <div
