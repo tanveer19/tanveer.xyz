@@ -45,19 +45,14 @@ const resumeContent = [
 
 const educatonContent = [
   {
-    passingYear: "2018-2020",
-    degreeTitle: "Ph.D in Horriblensess",
-    instituteName: "University Of Evil Doing",
+    passingYear: "2023-2023",
+    degreeTitle: "Complete Web Development",
+    instituteName: "Programming Hero",
   },
   {
-    passingYear: "2013-2016",
-    degreeTitle: "Bsc. in Computer Science",
-    instituteName: "World University",
-  },
-  {
-    passingYear: "2010-2012",
-    degreeTitle: "Graphic Artist Training ",
-    instituteName: "Graphic Master Institute",
+    passingYear: "2016-2016",
+    degreeTitle: "Web Application Development – PHP",
+    instituteName: "BITM",
   },
 ];
 
