@@ -2,6 +2,7 @@ import React from "react";
 import Social from "../Social";
 import Skill from "../Skill/Skill";
 import Service from "../service/ServiceAnimation";
+import { GiBeard } from "react-icons/gi";
 
 const About = () => {
   return (
@@ -12,16 +13,17 @@ const About = () => {
             <div className="w-1/2" data-aos="fade-up" data-aos-duration="1200">
               <div className="about-me">
                 <div className="img">
-                  <div className="img-in">
-                    <img src="img/about/about-me.jpg" alt="about" />
+                  <div className="img-in flex">
+                    {/* <img src="img/about/about-me.jpg" alt="about" /> */}
+                    <GiBeard size={384} />
                   </div>
                   <Social />
                   {/* End social icon */}
                 </div>
                 {/* End img */}
                 <div className="info">
-                  <p>Ux/Ui Designer</p>
-                  <h3>Nairobi Gadot</h3>
+                  <p>Front-end Developer</p>
+                  <h3>Tanveer Hossain Jony</h3>
                 </div>
                 {/* End info */}
               </div>
@@ -41,16 +43,9 @@ const About = () => {
                 </div>
                 <div className="about-text">
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
-                  </p>
-                  <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                    I'm a Front-end Developer. I'm from Dhaka. I code and create
+                    web elements for amazing people around the world. I like
+                    work with new people. New people new Experiences.
                   </p>
                 </div>
                 <div className="info-list">
@@ -76,7 +71,14 @@ const About = () => {
                       <ul>
                         <li>
                           <label>Phone: </label>
-                          <span>(+880) </span>
+                          <span>
+                            <a
+                              className="bg-green-300"
+                              href="https://call.whatsapp.com/voice/u20fsp76St16GhbML9k6Z8"
+                            >
+                              WhatsApp
+                            </a>
+                          </span>
                         </li>
 
                         <li>

@@ -1,22 +1,25 @@
 import React from "react";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaReact } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
 
 const SkillContnet = [
   {
-    img: "a1",
-    awardName: "Creative Designer",
-    awardFor: "Site of the day",
+    icon: <IoLogoJavascript size={32} />,
+    awardName: "JavaScript",
+    // awardFor: "JavaScript",
     delayAnimation: "0",
   },
   {
-    img: "a2",
-    awardName: "Yearly Best Performer",
-    awardFor: "Site of the day",
+    icon: <FaReact size={32} />,
+    awardName: "React",
+    // awardFor: "Site of the day",
     delayAnimation: "200",
   },
   {
-    img: "a3",
-    awardName: "Best Learner Award",
-    awardFor: "Site of the day",
+    icon: <DiMongodb size={32} />,
+    awardName: "MongoDB",
+    // awardFor: "Site of the day",
     delayAnimation: "400",
   },
 ];
@@ -34,9 +37,7 @@ const Skill = () => {
             data-aos-delay={val.delayAnimation}
           >
             <div className="feature-box-02 d-flex align-items-center">
-              <div className="icon">
-                <img src={`img/award/${val.img}.png`} alt="award" />
-              </div>
+              <div className="icon">{val.icon}</div>
               <div className="media-body">
                 <h6>{val.awardName}</h6>
                 <p>{val.awardFor}</p>

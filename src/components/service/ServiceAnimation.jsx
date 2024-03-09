@@ -3,23 +3,20 @@ import React from "react";
 const ServiceContent = [
   {
     icon: "icon-mobile",
-    title: "Web Design",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "PSD/Figma to HTML",
+    descriptions: `Your relaible partner to convert PSD to HTML using cutting edge technologies`,
     delayAnimation: "",
   },
   {
     icon: "icon-desktop",
-    title: "Web Development",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "PSD/Figma to React",
+    descriptions: `Your relaible partner to convert PSD to React using cutting edge technologies`,
     delayAnimation: "200",
   },
   {
     icon: "icon-target",
-    title: "Seo Marketing",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "WordPress",
+    descriptions: `I like to work with WordPress too! Let me know if you a fan of WordPress`,
     delayAnimation: "400",
   },
 ];

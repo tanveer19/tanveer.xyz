@@ -3,43 +3,28 @@ import React from "react";
 
 const resumeContent = [
   {
-    jobPosition: `Sr. Front-end Engineer`,
-    jobType: `Google | Remote`,
-    jobDuration: `Feb 2021 - Present`,
+    jobPosition: `Intern – MERN Stack Developer`,
+    jobType: `The Bengal Studio | Remote`,
+    jobDuration: `Oct, 2023 – Dec, 2023`,
     timeDuraton: `Full Time`,
-    compnayName: "Google LLC",
-    jobDescription: `Adipisicing Lorem ipsum dolor sit amet, consectetur elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    compnayName: "The Bengal Studio ",
+    jobDescription: `Responsibilities:
+    ❖ Implemented Firebase real-time database, enhancing the user experience by using React.
+    ❖ Transformed static HTML components into dynamic React components using cutting-edge packages.
+    ❖ Implemented a secure Sign-In page by integrating Firebase SMS authentication.`,
     delayAnimation: "",
   },
   {
-    jobPosition: `Visual Designer`,
-    jobType: `Ridian | Remote`,
-    jobDuration: `Mar 2020 - Present`,
-    timeDuraton: `Part Time`,
-    compnayName: "Ridian IT",
-    jobDescription: `Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor. Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua.`,
-    delayAnimation: "100",
-  },
-  {
-    jobPosition: `Animation Artist`,
-    jobType: `IbThemes | Remote`,
-    jobDuration: `Jan 2019 - Present`,
+    jobPosition: `Executive – Web Maintenance`,
+    jobType: `Khan Brothers Group Australia| Onsite`,
+    jobDuration: `Sept, 2021 – July, 2023`,
     timeDuraton: `Full Time`,
-    compnayName: "IB Themes",
-    jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
-    delayAnimation: "200",
+    compnayName: "Khan Brothers Group Australia",
+    jobDescription: `Responsibilities:
+    ❖ Demonstrated proficiency in utilizing Amazon Web Services (AWS), including Route 53, EC2, Lightsail.
+    ❖ Oversaw the maintenance of 5 WordPress websites, implementing updates, troubleshooting issues.
+    ❖ Effectively supervised and coordinated a team of 3 individuals, ensuring optimal workflow.`,
+    delayAnimation: "100",
   },
 ];
 
@@ -103,12 +88,12 @@ const Resume = () => {
           ></div>
           {/* End separated */}
 
-          <div className="title">
+          {/* <div className="title">
             <h3>Education & Skills</h3>{" "}
-          </div>
+          </div> */}
 
           <div className="row align-items-center">
-            <div
+            {/* <div
               className="col-lg-4 m-15px-tb"
               data-aos="fade-up"
               data-aos-duration="1200"
@@ -123,7 +108,6 @@ const Resume = () => {
                 ))}
               </ul>
             </div>
-            {/* End .col */}
 
             <div
               className="col-lg-7 ml-auto m-15px-tb"
@@ -131,8 +115,7 @@ const Resume = () => {
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              {/* <Skills /> */}
-            </div>
+            </div> */}
             {/* End .col */}
           </div>
         </div>

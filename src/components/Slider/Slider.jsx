@@ -9,7 +9,7 @@ const sliderContent = {
   name: "Tanveer Hossain Jony",
   description: `I design and develop services for customers of all sizes,
   specializing in creating stylish, modern websites, web
-  services and online stores.`,
+  services .`,
   btnText: " Resume",
 };
 
@@ -43,8 +43,9 @@ const Slider = () => {
         <div
           className="hb-me"
           style={{
-            backgroundImage: `url("img/slider/home-banner.png")`,
-            // zIndex: -1,
+            backgroundImage: `url("img/slider/home-banner2.jpg")`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
         ></div>
       </section>
