@@ -7,7 +7,7 @@ import { GiBeard } from "react-icons/gi";
 const About = () => {
   return (
     <div>
-      <section id="about" className="section theme-light dark-bg">
+      <section id="about" className="section theme-light">
         <div className="max-w-[1050px] w-full mx-auto">
           <div className="flex justify-center items-center">
             <div className="w-1/2" data-aos="fade-up" data-aos-duration="1200">

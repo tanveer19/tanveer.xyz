@@ -14,7 +14,7 @@ const Layout = () => {
       <Slider></Slider>
       <About></About>
       <Resume></Resume>
-      <section id="work" className="section theme-light dark-bg">
+      <section id="work" className="section theme-light ">
         <div className="container max-w-[1050px] w-full mx-auto">
           <div className="title">
             <h3>My Portfolio.</h3>
