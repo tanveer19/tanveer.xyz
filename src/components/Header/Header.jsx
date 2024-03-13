@@ -12,7 +12,7 @@ import { FaHome, FaBlog } from "react-icons/fa";
 
 const Header = () => {
   const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  const handleClick = () => setClick(false);
 
   return (
     <>
@@ -121,7 +121,7 @@ const Header = () => {
                 </ReactTooltip>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 className="nav-link block"
                 href="#blog"
@@ -139,7 +139,7 @@ const Header = () => {
                   <span>Blog</span>
                 </ReactTooltip>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 className="nav-link block"
