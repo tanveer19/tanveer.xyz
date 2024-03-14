@@ -9,8 +9,8 @@ const About = () => {
     <div>
       <section id="about" className="section theme-light">
         <div className="max-w-[1050px] w-full mx-auto">
-          <div className="flex justify-center items-center">
-            <div className="w-1/2" data-aos="fade-up" data-aos-duration="1200">
+          <div className="flex flex-wrap md:flex-nowrap space-x-10 justify-center items-center">
+            <div className="" data-aos="fade-up" data-aos-duration="1200">
               <div className="about-me">
                 <div className="img">
                   <div className="img-in flex">
@@ -32,7 +32,7 @@ const About = () => {
             {/* End col */}
 
             <div
-              className="w-1/2"
+              className=""
               data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-delay="200"
@@ -49,7 +49,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="info-list">
-                  <div className="flex justify-between">
+                  <div className="md:flex justify-between mr-14">
                     <div className="col-sm-6">
                       <ul>
                         <li>
