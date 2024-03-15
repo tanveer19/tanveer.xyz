@@ -27,7 +27,7 @@ const SkillContnet = [
 const Skill = () => {
   return (
     <>
-      <div className="row flex gap-32 justify-center">
+      <div className="row grid grid-cols-1 md:grid-cols-3 ">
         {SkillContnet.map((val, i) => (
           <div
             className="col-lg-4 m-15px-tb"

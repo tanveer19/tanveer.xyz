@@ -6,7 +6,7 @@ const Portfolio = () => {
     <div>
       <section id="work" className="section theme-light ">
         <div className="container max-w-[1050px] w-full mx-auto">
-          <div className="title">
+          <div className="title ml-5">
             <h3>My Portfolio.</h3>
           </div>
           <PortfolioAnimation />

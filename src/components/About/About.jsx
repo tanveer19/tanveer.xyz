@@ -9,7 +9,7 @@ const About = () => {
     <div>
       <section id="about" className="section theme-light">
         <div className="max-w-[1050px] w-full mx-auto">
-          <div className="flex flex-wrap md:flex-nowrap space-x-10 justify-center items-center">
+          <div className="flex flex-wrap md:flex-nowrap justify-center items-center">
             <div className="" data-aos="fade-up" data-aos-duration="1200">
               <div className="about-me">
                 <div className="img">
@@ -32,7 +32,7 @@ const About = () => {
             {/* End col */}
 
             <div
-              className=""
+              className="ml-5"
               data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-delay="200"
@@ -72,12 +72,7 @@ const About = () => {
                         <li>
                           <label>Phone: </label>
                           <span>
-                            <a
-                              className="bg-green-300"
-                              href="https://call.whatsapp.com/voice/u20fsp76St16GhbML9k6Z8"
-                            >
-                              WhatsApp
-                            </a>
+                            <a href="tel:+8801600312882">Call Me</a>
                           </span>
                         </li>
 
@@ -107,11 +102,13 @@ const About = () => {
           ></div>
           {/* End separated */}
 
-          <div className="title">
-            <h3>What I do?</h3>
-          </div>
+          <div className="ml-5">
+            <div className="title">
+              <h3>What I do?</h3>
+            </div>
 
-          <Service></Service>
+            <Service></Service>
+          </div>
 
           {/* End .row */}
 
@@ -124,10 +121,12 @@ const About = () => {
           ></div>
           {/* End separated */}
 
-          <div className="title">
-            <h3>Skills</h3>
+          <div className="ml-5">
+            <div className="title">
+              <h3>Skills</h3>
+            </div>
+            <Skill></Skill>
           </div>
-          <Skill></Skill>
 
           {/* separated */}
           <div

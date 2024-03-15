@@ -45,8 +45,8 @@ const Resume = () => {
   return (
     <>
       <section id="resume" className="section">
-        <div className="container max-w-[1050px] w-full mx-auto">
-          <div className="title">
+        <div className="container max-w-[1050px] w-full mx-auto ">
+          <div className="title ml-5">
             <h3>Experience.</h3>
           </div>
           {/* End title */}
@@ -59,8 +59,8 @@ const Resume = () => {
                 data-aos-duration="1200"
                 data-aos-delay={val.delayAnimation}
               >
-                <div className="row flex">
-                  <div className="col-md-4 col-xl-3 w-1/3">
+                <div className="row flex flex-wrap ">
+                  <div className="col-md-4 col-xl-3 w-full md:w-1/3">
                     <div className="rb-left">
                       <h6>{val.jobPosition}</h6>
                       <label>{val.jobType}</label>
@@ -68,7 +68,7 @@ const Resume = () => {
                       <div className="rb-time">{val.timeDuraton}</div>
                     </div>
                   </div>
-                  <div className="col-md-8 col-xl-9 w-2/3">
+                  <div className="col-md-8 col-xl-9 w-full md:w-2/3">
                     <div className="rb-right">
                       <h6>{val.compnayName}</h6>
                       <p>{val.jobDescription}</p>

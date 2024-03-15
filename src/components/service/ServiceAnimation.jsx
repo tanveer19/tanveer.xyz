@@ -23,7 +23,7 @@ const ServiceContent = [
 export default function Service() {
   return (
     <>
-      <div className="row flex gap-6">
+      <div className="row grid grid-cols-1 md:grid-cols-3">
         {ServiceContent.map((val, i) => (
           <div
             className="col-md-6 col-lg-4 my-3"

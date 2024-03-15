@@ -10,7 +10,7 @@ const ContactUs = () => {
         <div className="container max-w-[1120px] w-full mx-auto">
           <div className="row flex flex-wrap">
             <div
-              className="col-lg-5 col-xl-4 m-15px-tb w-2/5"
+              className="col-lg-5 col-xl-4 m-15px-tb w-full md:w-2/5 "
               data-aos="fade-right"
               data-aos-duration="1200"
             >
@@ -19,7 +19,7 @@ const ContactUs = () => {
             {/* End Contact info */}
 
             <div
-              className="col-lg-7 ml-auto m-15px-tb w-3/5"
+              className="col-lg-7 m-15px-tb w-full md:w-3/5"
               data-aos="fade-right"
               data-aos-duration="1200"
               data-aos-delay="200"
