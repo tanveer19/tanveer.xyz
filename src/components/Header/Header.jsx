@@ -12,7 +12,13 @@ import { FaHome, FaBlog } from "react-icons/fa";
 
 const Header = () => {
   const [click, setClick] = useState(false);
-  const handleClick = () => setClick(false);
+  const handleClick = () => {
+    if (window.innerWidth <= 768) {
+      setClick(!click);
+    } else {
+      setClick(false);
+    }
+  };
 
   return (
     <>
