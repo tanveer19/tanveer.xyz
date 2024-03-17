@@ -9,7 +9,6 @@ import Home from "./pages/Home/Home.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import ScrollToTop from "./components/ScrollToTop.jsx";
 
 const router = createBrowserRouter([
   {
@@ -33,9 +32,7 @@ const App = () => {
 
   return (
     <React.StrictMode>
-      <RouterProvider router={router}>
-        <ScrollToTop></ScrollToTop>
-      </RouterProvider>
+      <RouterProvider router={router}></RouterProvider>
     </React.StrictMode>
   );
 };

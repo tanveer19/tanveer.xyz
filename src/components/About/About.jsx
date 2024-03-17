@@ -2,7 +2,6 @@ import React from "react";
 import Social from "../Social";
 import Skill from "../Skill/Skill";
 import Service from "../service/ServiceAnimation";
-import { GiBeard } from "react-icons/gi";
 
 const About = () => {
   return (
@@ -14,8 +13,12 @@ const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in flex">
-                    {/* <img src="img/about/about-me.jpg" alt="about" /> */}
-                    <GiBeard size={384} />
+                    <img
+                      src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww"
+                      width={626}
+                      height={630}
+                      alt="about"
+                    />
                   </div>
                   <Social />
                   {/* End social icon */}

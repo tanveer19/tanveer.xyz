@@ -1,5 +1,4 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Slider from "../Slider/Slider";
@@ -7,6 +6,7 @@ import About from "../About/About";
 import Resume from "../resume/ResumeAnimation";
 import Portfolio from "../portfolio/Portfolio";
 import ContactUs from "../Contact/ContactUs";
+import ScrollToTop from "../ScrollToTop";
 
 const Layout = () => {
   return (
@@ -17,7 +17,7 @@ const Layout = () => {
       <Resume></Resume>
       <Portfolio></Portfolio>
       <ContactUs></ContactUs>
-      <Outlet></Outlet>
+      <ScrollToTop></ScrollToTop>
       <Footer></Footer>
     </div>
   );
