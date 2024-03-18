@@ -18,7 +18,7 @@ const Slider = () => {
     <>
       {/*  Home Banner */}
       <section id="home" className="home-banner">
-        <div className="max-w-[1050px] w-full pl-5 flex justify-center">
+        <div className="max-w-[1120px] w-full pl-5 flex justify-center">
           <div className="full-screen">
             <div className="w-full md:w-3/4 mt-16">
               <div className="type-box">

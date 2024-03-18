@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <div>
       <section id="work" className="section theme-light ">
-        <div className="container max-w-[1050px] w-full mx-auto">
+        <div className="container max-w-[1120px] w-full mx-auto">
           <div className="title ml-5">
             <h3>My Portfolio.</h3>
           </div>

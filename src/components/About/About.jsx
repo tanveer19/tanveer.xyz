@@ -6,19 +6,14 @@ import Service from "../service/ServiceAnimation";
 const About = () => {
   return (
     <div>
-      <section id="about" className="section theme-light">
-        <div className="max-w-[1050px] w-full mx-auto">
+      <section id="about" className="section theme-light dark-bg">
+        <div className="max-w-[1120px] w-full mx-auto">
           <div className="flex flex-wrap md:flex-nowrap justify-center items-center">
             <div className="" data-aos="fade-up" data-aos-duration="1200">
               <div className="about-me">
                 <div className="img">
                   <div className="img-in flex">
-                    <img
-                      src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww"
-                      width={626}
-                      height={630}
-                      alt="about"
-                    />
+                    <img src="/img/about/about-me-3.jpg" alt="about" />
                   </div>
                   <Social />
                   {/* End social icon */}
@@ -35,8 +30,8 @@ const About = () => {
             {/* End col */}
 
             <div
-              className="ml-5"
-              data-aos="fade-up"
+              className="ml-5 md:ml-24"
+              // data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-delay="200"
             >
@@ -46,9 +41,9 @@ const About = () => {
                 </div>
                 <div className="about-text">
                   <p>
-                    I'm a Front-end Developer. I'm from Dhaka. I code and create
-                    web elements for amazing people around the world. I like
-                    work with new people. New people new Experiences.
+                    Hands-on experience in JavaScript, React, MongoDB and
+                    Firebase Database. I have worked using Route 53, EC2,
+                    Lightsail of AWS to manage WordPress websites.
                   </p>
                 </div>
                 <div className="info-list">
