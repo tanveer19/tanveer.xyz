@@ -31,7 +31,7 @@ const About = () => {
 
             <div
               className="ml-5 md:ml-24"
-              // data-aos="fade-up"
+              data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-delay="200"
             >
