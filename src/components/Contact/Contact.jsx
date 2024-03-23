@@ -1,21 +1,46 @@
 import React from "react";
+import { useRef } from "react";
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
+import { useState } from "react";
 
 const Contact = () => {
   const {
     register,
-    handleSubmit,
     formState: { errors },
+    reset,
   } = useForm();
 
-  const onSubmit = (data, e) => {
-    e.target.reset();
-    console.log("Message submited: " + JSON.stringify(data));
+  const [message, setMessage] = useState("");
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_YOUR_SERVICE_ID,
+        import.meta.env.VITE_YOUR_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: import.meta.env.VITE_YOUR_PUBLIC_KEY,
+        }
+      )
+
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          reset();
+          setMessage("Your message has been sent successfully");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
   };
 
   return (
     <>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form ref={form} onSubmit={sendEmail}>
         <div className="row flex flex-wrap">
           <div className="col-md-6 w-1/2">
             <div className="form-group mb-3 mr-3">
@@ -95,6 +120,7 @@ const Contact = () => {
           {/* End .col-12 */}
         </div>
       </form>
+      {message && <p>{message}</p>}
     </>
   );
 };
