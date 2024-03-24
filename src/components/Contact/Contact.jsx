@@ -7,13 +7,15 @@ import { useState } from "react";
 const Contact = () => {
   const {
     register,
+    handleSubmit,
     formState: { errors },
     reset,
   } = useForm();
 
   const [message, setMessage] = useState("");
   const form = useRef();
-  const sendEmail = (e) => {
+
+  const onSubmit = (data, e) => {
     e.preventDefault();
 
     emailjs
@@ -40,7 +42,7 @@ const Contact = () => {
 
   return (
     <>
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={handleSubmit(onSubmit)}>
         <div className="row flex flex-wrap">
           <div className="col-md-6 w-1/2">
             <div className="form-group mb-3 mr-3">
